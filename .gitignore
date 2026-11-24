@@ -1,0 +1,23 @@
+# Python & Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment Variables & Secrets
+.env
+
+# Databases & Local Media / Vector Stores
+*.sqlite3
+media/
+vectorstore/
+chroma_db/
+faiss_index/
+
+# Node & React / Vite Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# VS Code
+.vscode/
